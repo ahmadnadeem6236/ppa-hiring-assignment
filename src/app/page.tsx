@@ -1,5 +1,11 @@
-import Image from 'next/image'
+import Header from "@/components/sections/header";
 
 export default function Home() {
-  return <h1>HEllo</h1>
+  return (
+    <div>
+      <div id="top" className=" bg-silver">
+        <Header />
+      </div>
+    </div>
+  );
 }
