@@ -1,11 +1,11 @@
-# PPA TechLab Assignment
+# PPA Hiring Assignment
 - Please raise an issue if you have additional questions regarding the assignment.
 - **DO NOT** raise a PR on this repository, create your repository and submit the link through the submission form
 - You will be judged on your code quality, file organization, commit names, and best practices throughout the assignment
 
 ## Important Links : 
-1. Figma design : [LINK](https://www.figma.com/design/ZNgCqyJIecOgMZC8BxylB8/PPA-TechLab-Assignment?node-id=0-1) (Check all pages)
-2. Submission Link : [Forms](https://forms.gle/DvymbWiUjqnZ73Xx8)
+1. Figma design : [LINK](https://www.figma.com/design/ZNgCqyJIecOgMZC8BxylB8/PPA-Hiring-Assignment?node-id=0-1&t=UiLBxGENPj6CNxpq-0) (Check all pages)
+2. Submission Link : [Forms](https://forms.gle/my1arm5phHi4Ax3G9)
 
 ## Tasks : 
 - [ ] Create a website similar to the one provided in the Figma design above
