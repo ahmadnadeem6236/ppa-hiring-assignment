@@ -35,7 +35,7 @@ function Hero() {
   }, [api]);
 
   return (
-    <div className="container min-h-screen flex flex-col justify-center items-center">
+    <div className=" md:container md:min-h-screen flex flex-col md:justify-center md:items-center px-20 mt-10 md:mt-0 ">
       <Carousel
         setApi={setApi}
         plugins={[plugin.current]}
@@ -44,26 +44,27 @@ function Hero() {
       >
         <CarouselContent>
           <CarouselItem>
-            <div className=" flex justify-center gap-24">
+            <div className=" flex justify-center md:gap-24 ">
               <div className="flex flex-col justify-center gap-5">
-                <h1 className=" font-semibold text-6xl text-black">
+                <h1 className=" font-semibold md:text-6xl text-2xl text-d_Grey">
                   Lessons and insights <br />
                 </h1>
-                <p className=" text-primary text-6xl font-semibold">
+                <p className=" text-primary md:text-6xl text-2xl font-semibold">
                   from 8 years
                 </p>
-                <p className=" font-light text-sm text-slate-400">
+                <p className=" font-light md:text-sm text-slate-500">
                   Where to grow your business as a photographer: site or social
                   media?
                 </p>
-                <Button className="w-[128px] h-[52px] rounded-[8] text-white">
+                <Button className="md:w-[128px] w-[80px] md:h-[52px] rounded-[8] text-white">
                   Register
                 </Button>
               </div>
               <div>
                 <Image
+                  className=" min-w-32"
                   src="/heroImg.png"
-                  width={391}
+                  width={300}
                   height={417}
                   alt="Hero Image"
                 />
@@ -71,26 +72,26 @@ function Hero() {
             </div>
           </CarouselItem>
           <CarouselItem>
-            <div className=" flex justify-center gap-24">
+            <div className=" flex justify-center md:gap-24">
               <div className="flex flex-col justify-center gap-5">
-                <h1 className=" font-semibold text-6xl text-black">
+                <h1 className=" font-semibold md:text-6xl text-2xl text-d_Grey">
                   Lessons and insights <br />
                 </h1>
-                <p className=" text-primary text-6xl font-semibold">
+                <p className=" text-primary md:text-6xl text-2xl font-semibold">
                   from 8 years
                 </p>
-                <p className=" font-light text-sm text-slate-400">
+                <p className=" font-light text-sm text-slate-500">
                   Where to grow your business as a photographer: site or social
                   media?
                 </p>
-                <Button className="w-[128px] h-[52px] rounded-[8] text-white">
+                <Button className="md:w-[128px] w-[80px] md:h-[52px] rounded-[8] text-white">
                   Register
                 </Button>
               </div>
               <div>
                 <Image
                   src="/heroImg.png"
-                  width={391}
+                  width={300}
                   height={417}
                   alt="Hero Image"
                 />
@@ -98,26 +99,26 @@ function Hero() {
             </div>
           </CarouselItem>
           <CarouselItem>
-            <div className=" flex justify-center gap-24">
+            <div className=" flex justify-center md:gap-24">
               <div className="flex flex-col justify-center gap-5">
-                <h1 className=" font-semibold text-6xl text-black">
+                <h1 className=" font-semibold md:text-6xl text-2xl text-d_Grey">
                   Lessons and insights <br />
                 </h1>
-                <p className=" text-primary text-6xl font-semibold">
+                <p className=" text-primary md:text-6xl text-2xl font-semibold">
                   from 8 years
                 </p>
-                <p className=" font-light text-sm text-slate-400">
+                <p className=" font-light text-sm text-slate-500">
                   Where to grow your business as a photographer: site or social
                   media?
                 </p>
-                <Button className="w-[128px] h-[52px] rounded-[8] text-white">
+                <Button className="md:w-[128px] w-[80px] md:h-[52px] rounded-[8] text-white">
                   Register
                 </Button>
               </div>
               <div>
                 <Image
                   src="/heroImg.png"
-                  width={391}
+                  width={300}
                   height={417}
                   alt="Hero Image"
                 />

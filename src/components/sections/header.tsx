@@ -30,11 +30,11 @@ function Header() {
   ];
 
   return (
-    <div className=" container flex items-center justify-around h-[84px]">
+    <div className="md:container md:flex items-center md:justify-around h-[84px] pt-7 px-10">
       <div>
         <Image width={111} height={21} src="Logo.svg" alt="logo" />
       </div>
-      <div className=" flex flex-row gap-10 h-[24px]">
+      <div className="hidden md:flex flex-row gap-10 h-[24px]">
         {navItems.map((item) => {
           return (
             <a className="text-black" href={item.href} key={item.name}>
@@ -44,7 +44,7 @@ function Header() {
         })}
       </div>
       <div>
-        <div className="">
+        <div className="hidden md:flex">
           <Button className="bg-silver font-normal text-primary ">Login</Button>
           <Button className=" bg-primary rounded-xl text-white font-normal">
             Sign Up
