@@ -35,7 +35,7 @@ function Hero() {
   }, [api]);
 
   return (
-    <div className=" md:container md:min-h-screen flex flex-col md:justify-center md:items-center px-20 mt-10 md:mt-0 ">
+    <div className=" dark:bg-black md:min-h-screen flex flex-col md:justify-center md:items-center px-20 mt-10 md:mt-0 ">
       <Carousel
         setApi={setApi}
         plugins={[plugin.current]}
@@ -46,7 +46,7 @@ function Hero() {
           <CarouselItem>
             <div className=" flex justify-center md:gap-24 ">
               <div className="flex flex-col justify-center gap-5">
-                <h1 className=" font-semibold md:text-6xl text-2xl text-d_Grey">
+                <h1 className=" font-semibold md:text-6xl text-2xl dark:text-gray-300 text-d_Grey">
                   Lessons and insights <br />
                 </h1>
                 <p className=" text-primary md:text-6xl text-2xl font-semibold">
@@ -74,7 +74,7 @@ function Hero() {
           <CarouselItem>
             <div className=" flex justify-center md:gap-24">
               <div className="flex flex-col justify-center gap-5">
-                <h1 className=" font-semibold md:text-6xl text-2xl text-d_Grey">
+                <h1 className=" font-semibold md:text-6xl text-2xl dark:text-gray-300 text-d_Grey">
                   Lessons and insights <br />
                 </h1>
                 <p className=" text-primary md:text-6xl text-2xl font-semibold">
@@ -107,7 +107,7 @@ function Hero() {
                 <p className=" text-primary md:text-6xl text-2xl font-semibold">
                   from 8 years
                 </p>
-                <p className=" font-light text-sm text-slate-500">
+                <p className=" font-light text-sm dark:text-gray-300 text-slate-500">
                   Where to grow your business as a photographer: site or social
                   media?
                 </p>
@@ -125,19 +125,6 @@ function Hero() {
               </div>
             </div>
           </CarouselItem>
-
-          {/* <CarouselItem>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
-            velit, error commodi reprehenderit sint laboriosam, quia omnis
-            maxime, voluptas cumque perspiciatis a deserunt accusantium minus
-            nostrum sit quisquam sequi vero;
-          </CarouselItem>
-          <CarouselItem>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
-            velit, error commodi reprehenderit sint laboriosam, quia omnis
-            maxime, voluptas cumque perspiciatis a deserunt accusantium minus
-            nostrum sit quisquam sequi vero.---
-          </CarouselItem> */}
         </CarouselContent>
         <CarouselNext />
         <CarouselPrevious />

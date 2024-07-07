@@ -21,17 +21,17 @@ bun dev
 ### Layout :
 
 - [x] Header
-- [ ] Home
-- [ ] Body
-- [ ] Footer
+- [x] Home
+- [x] Body
+- [x] Footer
 
 ### Features :
 
-- [ ] Working Links
-- [ ] Add Dark Mode
-- [ ] Responsive for mobile view
-- [ ] Working Carousel
-- [ ] Count-up animation
+- [x] Working Links
+- [x] Add Dark Mode
+- [x] Responsive for mobile view
+- [x] Working Carousel
+- [x] Count-up animation
 
 ## Important Links :
 
@@ -40,11 +40,11 @@ bun dev
 
 ## Tasks :
 
-- [ ] Create a website similar to the one provided in the Figma design above
-- [ ] Create a feature to toggle between light and dark mode
-- [ ] Add Responsive design to work with mobile view
-- [ ] Add a working carousel for the first section
-- [ ] Add a "count-up animation" in the statistics section
+- [x] Create a website similar to the one provided in the Figma design above
+- [x] Create a feature to toggle between light and dark mode
+- [x] Add Responsive design to work with mobile view
+- [x] Add a working carousel for the first section
+- [x] Add a "count-up animation" in the statistics section
 
 ## Clarifications
 

@@ -4,7 +4,7 @@ function Community() {
   return (
     <div className="md:container flex flex-col items-center justify-center gap-8">
       <div className=" flex flex-col items-center gap-5">
-        <h2 className=" font-semibold md:text-4xl text-xl text-d_Grey md:w-[542px] text-center w-10/12">
+        <h2 className=" font-semibold md:text-4xl text-xl text-d_Grey dark:text-white md:w-[542px] text-center w-10/12">
           Manage your entire community in a single system
         </h2>
         <p className=" font-light leading-3 tracking-wider text-slate-500">
@@ -20,7 +20,7 @@ function Community() {
               height={65}
               alt="comIcon"
             />
-            <h3 className="md:text-3xl text-lg font-semibold text-d_Grey text-center">
+            <h3 className="md:text-3xl text-lg font-semibold dark:text-white text-d_Grey text-center">
               Membership Organisations
             </h3>
             <p className=" text-sm font-light text-center">
@@ -35,7 +35,7 @@ function Community() {
               height={65}
               alt="comIcon"
             />
-            <h3 className="md:text-3xl text-lg font-semibold text-d_Grey text-center">
+            <h3 className="md:text-3xl text-lg font-semibold dark:text-white text-d_Grey text-center">
               National Associations
             </h3>
             <p className=" text-sm font-light text-center">
@@ -50,7 +50,7 @@ function Community() {
               height={65}
               alt="comIcon"
             />
-            <h3 className="md:text-3xl text-lg font-semibold text-d_Grey text-center">
+            <h3 className="md:text-3xl text-lg font-semibold dark:text-white text-d_Grey text-center">
               Clubs And <br /> <span>Groups</span>
             </h3>
             <p className=" text-sm font-light text-center">

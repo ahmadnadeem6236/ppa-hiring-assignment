@@ -35,3 +35,26 @@ export const clientLogo = [
     src: "/clientsLogo/clientLogo7.svg",
   },
 ] as const;
+
+export const socialIcons = [
+  {
+    index: 1,
+    name: "Instagram",
+    src: "/socialIcons/socialIcon1.svg",
+  },
+  {
+    index: 2,
+    name: "Dribble",
+    src: "/socialIcons/socialIcon2.svg",
+  },
+  {
+    index: 3,
+    name: "X",
+    src: "/socialIcons/socialIcon3.svg",
+  },
+  {
+    index: 4,
+    name: "Youtube",
+    src: "/socialIcons/socialIcon4.svg",
+  },
+] as const;

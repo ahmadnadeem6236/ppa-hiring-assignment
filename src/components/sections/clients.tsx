@@ -6,7 +6,7 @@ function Clients() {
   return (
     <div className="md:container flex flex-col justify-center items-center gap-20">
       <div className=" flex flex-col items-center gap-5">
-        <h2 className=" md:text-4xl text-2xl text-d_Grey font-semibold">
+        <h2 className=" md:text-4xl text-2xl text-d_Grey font-semibold dark:text-yellow-50">
           Our Clients
         </h2>
         <p className=" font-light leading-3 tracking-wider text-slate-500">
@@ -18,6 +18,7 @@ function Clients() {
           {clientLogo.map((logo) => {
             return (
               <Image
+                className=""
                 src={logo.src}
                 width={40}
                 height={40}
